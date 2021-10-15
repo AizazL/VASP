@@ -1,0 +1,27 @@
+doctype html
+html(lang='en')
+  head
+    link#bootstrap-css(href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css' rel='stylesheet')
+    script(src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js')
+    script(src='//code.jquery.com/jquery-1.11.1.min.js')
+    link(href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet' integrity='sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1' crossorigin='anonymous')
+    link(rel='stylesheet' href='/stylesheets/dashboard.css')
+  body.home
+    .hotbar
+       .hotbarhouse
+            a(href='/logout')
+                img(src='/images/hotbar house.jpg' alt='hotbar house' width='115' height='90' style='margin-left: 300px')
+            a(href='/purchase')
+                img(src='/images/Diagnostic Pill.png' alt='Diagnostic Pill' width='100' height='100' style='margin-left: 180px; display: inline-block')
+            a(href='/dashboard')
+                img(src='/images/person.png' alt='person' width='100' height='100' style='margin-left: 200px; display: inline-block')
+            a(href='/inventory')
+                img(src='/images/Cardiograph image.png' alt='Cardiograph image' width='100' height='100' style='margin-left: 200px; display: inline-block')
+            a(href='/healthReport')
+                img(src='/images/Current Diagnostic.png' alt='Current Diagnostic' width='100' height='100' style='margin-left: 200px; display: inline-block')
+    
+    img(src='/images/MyStatusDashboard.png' alt='MyStatusDashboard' width='448.56' height='700' style='margin-left: 80px; margin-top: 80px; float: left')
+    img(src='/images/line.jpg' alt='line' width='10px' height='700px' style='margin-left: 50px; margin-top: 70px; float: left;')
+    .h3(style='font-family: Newsreader; padding: 8px; text-align:center; border-radius: 15px; margin-left: 50px; padding: 35px; display:inline-block; margin-top: 100px; color: white; background-color: #5d8b8d')&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br> <span style="font-size:100px"> #{userBMI} </span> <br> Body Mass Index
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5771.905944262694!2d-79.73236525001815!3d43.66994787656614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3fd6a882ba99%3A0x39f07100490327cf!2sRexall!5e0!3m2!1sen!2sca!4v1621098089695!5m2!1sen!2sca" frameborder="0" width="400" height="300" style="border:0" allowfullscreen></iframe>
+

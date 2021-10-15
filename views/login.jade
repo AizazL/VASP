@@ -1,0 +1,35 @@
+doctype html
+html(lang='en')
+  head
+    link#bootstrap-css(href='//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css' rel='stylesheet')
+    script(src='//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js')
+    script(src='//code.jquery.com/jquery-1.11.1.min.js')
+    link(rel='stylesheet' href='/stylesheets/login.css')
+  body
+    .sidenav
+      img(src='/images/VASP_SOLID.png' alt='VASP SOLID' width='468.33' height='300' style='margin-left: 23%')
+      .login-main-text
+        
+        h2(style='font-family:Newspaper; margin-left:5%')
+          br
+          |  Authentication Page
+        p(style='margin-left:5%') Login or register from here to access VASP.
+       
+    .main
+      .col-md-6.col-sm-12
+        br
+        br
+        
+        .login-form(style='margin-top: 75px')
+          form(action='/login' method='POST')
+
+            .form-group
+              label User Name:
+              input#username.form-control(type='text' placeholder='User Name' name='username')
+            .form-group
+              label Password:
+              input#password.form-control(type='password' placeholder='Password' name='password')
+              br
+              button.btn.btn-black(type='submit' style='margin-right: 10px;font-family:Newspaper') Login
+              a(href="/register")
+                button.btn.btn-register(type='button' style='font-family:Newspaper') Register

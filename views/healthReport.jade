@@ -1,0 +1,74 @@
+doctype html
+html(lang='en')
+  head
+    link#bootstrap-css(href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css' rel='stylesheet')
+    script(src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js')
+    script(src='//code.jquery.com/jquery-1.11.1.min.js')
+    link(href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet' integrity='sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1' crossorigin='anonymous')
+    link(rel='stylesheet' href='/stylesheets/dashboard.css')
+  body.home
+    .hotbar
+       .hotbarhouse
+            a(href='/logout')
+                img(src='/images/hotbar house.jpg' alt='hotbar house' width='115' height='90' style='margin-left: 300px')
+            a(href='/purchase')
+                img(src='/images/Diagnostic Pill.png' alt='Diagnostic Pill' width='100' height='100' style='margin-left: 180px; display: inline-block')
+            a(href='/dashboard')
+                img(src='/images/person.png' alt='person' width='100' height='100' style='margin-left: 200px; display: inline-block')
+            a(href='/inventory')
+                img(src='/images/Cardiograph image.png' alt='Cardiograph image' width='100' height='100' style='margin-left: 200px; display: inline-block')
+            a(href='/healthReport')
+                img(src='/images/Current Diagnostic.png' alt='Current Diagnostic' width='100' height='100' style='margin-left: 200px; display: inline-block')
+
+    
+    img(src='/images/GetMyDiagnosis.png' alt='GetMyDiagnosis' width='448.56' height='700' style='margin-left: 80px; margin-top: 70px; float: left')
+    img(src='/images/line.jpg' alt='line' width='10px' height='700px' style='margin-left: 50px; margin-top: 70px; float: left;')
+    div(style='float:left; margin-left: 50px; margin-top:45px')
+        h2(style='font-family: Newspaper; border-radius: 15px; margin-left: 50px; padding-right: 100px; padding-left: 50px; padding-top: 25px; padding-bottom: 20px; display:inline-block; margin-top: 25px; color: white; background-color: #5d8b8d') Please fill out the medical diagnosis form:
+        
+            form
+                input#Fever(type='checkbox' name='Fever' value='Fever' class='largerCheckbox')
+                label(for='Fever')&nbsp;&nbsp;  Fever
+                br
+                input#Insomnia(type='checkbox' name='vehicle2' value='Car' class='largerCheckbox')
+                label(for='vehicle2')&nbsp;&nbsp; Insomnia
+                br
+                input#SevereDryCoughing(type='checkbox' name='vehicle3' value='Boat' class='largerCheckbox')
+                label(for='vehicle3')&nbsp;&nbsp;  Severe Dry Coughing
+                br
+                input#Nausea(type='checkbox' name='vehicle3' value='Boat' class='largerCheckbox')
+                label(for='vehicle3')&nbsp;&nbsp;  Nausea
+                br
+                input#BodyPain(type='checkbox' name='vehicle3' value='Boat' class='largerCheckbox')
+                label(for='vehicle3')&nbsp;&nbsp;  Body Pain
+                br
+                input#Fainting(type='checkbox' name='vehicle3' value='Boat' class='largerCheckbox')
+                label(for='vehicle3')&nbsp;&nbsp;  Fainting
+                br
+                input#Anxiety(type='checkbox' name='vehicle3' value='Boat' class='largerCheckbox')
+                label(for='vehicle3')&nbsp;&nbsp;  Anxiety
+                br
+                br
+                div(style='display: inline-block')
+                    label Body Temp (Celcius):
+                    input#username.form-control(type='number' placeholder='Body Temp (Celsius)' name='BodyTemp' required)
+                div(style='display: inline-block; margin-left:50px')
+                    label Heartrate:
+                    input#password.form-control(type='number' placeholder='Heartrate-BPM' name='Heartrate' required)
+                div(style='display: inline-block; margin-left:50px')
+                    label Respiration Rate:
+                        input#password.form-control(type='number' placeholder='Respiration Rate' name='Respiration Rate' required)
+                div(style='display: block; margin-top: 30px')
+                    label Blood Pressure:
+                        input#password.form-control(type='number' placeholder='Blood Pressure' name='Blood Pressure' required)
+                    div(style='display: inline-block; margin-top: 30px; margin-left: 120px')
+                        label Blood Sugar (mmol/L):
+                            input#password.form-control(type='number' placeholder='Blood Sugar' name='Blood Sugar' required)
+                br 
+                br
+                div(style='display: block') 
+                     a(href="/purchase")                       
+                        button.btn.btn-black(type='button' style='margin-right: 10px; border: solid; border-size: 1px; font-family:') Next
+               
+   
+            
