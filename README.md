@@ -2,7 +2,7 @@
 
 ![VASP](https://github.com/user-attachments/assets/e7dee163-9566-45c9-a508-063f1a387aa0)
 
-**VASP** is a prototype health diagnosis web-app tool that won 1st Place at the WolfHacks 2021 Hackathon. Our team designed a multi-functional sensor using AutoCAD and Arduino to collect various medical data from patients. The web application is engineered to receive and display this information, providing insights into potential health issues. Additionally, an embedded Google Maps view helps patients locate local pharmacies with appropriate medications in stock.
+**VASP** is a prototype health diagnosis web-app tool that won 1st Place at the TurnerHacks 2021 Hackathon. Our team designed a multi-functional sensor using AutoCAD and Arduino to collect various medical data from patients. The web application is engineered to receive and display this information, providing insights into potential health issues. Additionally, an embedded Google Maps view helps patients locate local pharmacies with appropriate medications in stock.
 
 ## Project Overview
 
