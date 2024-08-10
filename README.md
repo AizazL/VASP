@@ -1,4 +1,5 @@
 # VASP FILE
+![vaspResized](https://github.com/user-attachments/assets/e7dee163-9566-45c9-a508-063f1a387aa0)
 
 This is the web-application component of VASP.
 
